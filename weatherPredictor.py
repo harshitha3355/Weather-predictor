@@ -5,9 +5,9 @@ from sklearn.model_selection import train_test_split
 import joblib
 
 # ThingSpeak Config
-CHANNEL_ID = "3003731"
-READ_API_KEY = "5ITYHYCLFRTELXK2"
-WRITE_API_KEY = "2ILFSOB3VVA5D69A"
+CHANNEL_ID = "channelid"
+READ_API_KEY = "readappikey"
+WRITE_API_KEY = "writeapikey"
 
 # Step 1: Fetch Data from ThingSpeak
 def fetch_data():
