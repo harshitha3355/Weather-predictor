@@ -3,8 +3,8 @@ import requests
 import time
 from datetime import datetime, timedelta
 
-CHANNEL_ID = "3003731"
-WRITE_API_KEY = "2ILFSOB3VVA5D69A"
+CHANNEL_ID = "channelid"
+WRITE_API_KEY = "writeapikey"
 
 # Your real data as a string (would normally come from a file)
 real_data = """time_stamp,temp,humidity,pressure,rain,
