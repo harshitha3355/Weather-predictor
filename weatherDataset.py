@@ -2,8 +2,8 @@ import numpy as np
 import requests
 import time
 
-CHANNEL_ID = "3003731"
-WRITE_API_KEY = "2ILFSOB3VVA5D69A"
+CHANNEL_ID = "channelid"
+WRITE_API_KEY = "writeapikey"
 
 # Simulate 1000 entries of realistic weather data
 def generate_fake_data(n=1000):
